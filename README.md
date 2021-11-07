@@ -8,5 +8,9 @@ Temas de teoría:
 4. Nivel de transporte
 5. tcp-udp 
 6. Dns
+
+
 Examenes de los tres bloques.
+
+
 Prácticas especificas de cada tema con memoria, utilizando herramientas como netgui y wireshark.
