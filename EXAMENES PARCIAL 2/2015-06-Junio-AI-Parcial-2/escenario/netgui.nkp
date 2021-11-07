@@ -1,0 +1,151 @@
+<nodes>
+position(53.0,44.0); NKCompaq("pc10")
+position(809.0,438.0); NKRouter("r9")
+position(824.0,548.0); NKHub("hub5")
+position(42.0,608.0); NKCompaq("pc40")
+position(994.0,56.0); NKHub("hub6")
+position(1073.0,195.0); NKCompaq("pc30")
+position(722.0,644.0); NKCompaq("pc91")
+position(950.0,639.0); NKCompaq("pc92")
+position(592.0,646.0); NKCompaq("pc80")
+position(33.0,269.0); NKRouter("r5")
+position(417.0,269.0); NKRouter("r3")
+position(655.0,27.0); NKCompaq("pc20")
+position(798.0,63.0); NKHub("hub2")
+position(880.0,137.0); NKRouter("r10")
+position(594.0,134.0); NKRouter("r2")
+position(817.0,274.0); NKRouter("r7")
+position(426.0,521.0); NKRouter("r8")
+position(239.0,29.0); NKHub("hub1")
+position(27.0,483.0); NKHub("hub3")
+position(598.0,390.0); NKRouter("r6")
+position(226.0,410.0); NKRouter("r4")
+position(221.0,139.0); NKRouter("r1")
+position(429.0,621.0); NKHub("hub4")
+<\nodes>
+<connections>
+<link>
+Connect("pc10")
+To("hub1")
+<\link>
+<link>
+Connect("r1")
+To("r2")
+<\link>
+<link>
+Connect("r1")
+To("r3")
+<\link>
+<link>
+Connect("r1")
+To("r4")
+<\link>
+<link>
+Connect("r1")
+To("r5")
+<\link>
+<link>
+Connect("r1")
+To("hub1")
+<\link>
+<link>
+Connect("r2")
+To("hub2")
+<\link>
+<link>
+Connect("hub2")
+To("pc20")
+<\link>
+<link>
+Connect("r2")
+To("r7")
+<\link>
+<link>
+Connect("r2")
+To("r6")
+<\link>
+<link>
+Connect("r2")
+To("r3")
+<\link>
+<link>
+Connect("r3")
+To("r6")
+<\link>
+<link>
+Connect("r4")
+To("r5")
+<\link>
+<link>
+Connect("r5")
+To("hub3")
+<\link>
+<link>
+Connect("r4")
+To("hub3")
+<\link>
+<link>
+Connect("hub3")
+To("pc40")
+<\link>
+<link>
+Connect("r4")
+To("r8")
+<\link>
+<link>
+Connect("r8")
+To("r3")
+<\link>
+<link>
+Connect("r3")
+To("r4")
+<\link>
+<link>
+Connect("r6")
+To("r8")
+<\link>
+<link>
+Connect("r7")
+To("r6")
+<\link>
+<link>
+Connect("r7")
+To("r9")
+<\link>
+<link>
+Connect("r8")
+To("hub4")
+<\link>
+<link>
+Connect("hub4")
+To("pc80")
+<\link>
+<link>
+Connect("r9")
+To("hub5")
+<\link>
+<link>
+Connect("r7")
+To("r10")
+<\link>
+<link>
+Connect("r10")
+To("hub6")
+<\link>
+<link>
+Connect("hub6")
+To("pc30")
+<\link>
+<link>
+Connect("hub5")
+To("pc91")
+<\link>
+<link>
+Connect("pc92")
+To("hub5")
+<\link>
+<link>
+Connect("r8")
+To("hub3")
+<\link>
+<\connections>

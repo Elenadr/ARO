@@ -1,0 +1,11 @@
+#!/bin/bash
+
+HOST=`hostname`
+
+if [ -d /hostlab/${HOST} ]; then
+	mv /hostlab/${HOST} /hostlab/${HOST}.old
+
+fi
+
+echo 1 > /proc/sys/net/ipv4/conf/all/arp_filter
+
