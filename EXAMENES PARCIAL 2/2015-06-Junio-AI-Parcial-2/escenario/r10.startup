@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "Iniciando NAT..."
-/sbin/iniciarNAT.sh
-
-
